@@ -1,0 +1,20 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: ms-demo
+  security:
+    user:
+      name: admin
+      password: admin
+      roles: ADMIN
+
+com:
+  example:
+    hello:
+      msg: I love you too
+
+
